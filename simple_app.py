@@ -5,6 +5,10 @@ import shutil
 import zipfile
 
 def run_city4cfd_command(config_file):
+    # Show current working directory and contents for debugging
+    st.info(f"Current working directory: {os.getcwd()}")
+    st.info(f"Directory contents: {os.listdir('.')}")
+    
     # Change to TUDCampus directory
     os.chdir("TUDCampus")
     
