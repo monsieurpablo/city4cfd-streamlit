@@ -1,0 +1,8 @@
+libboost-all-dev 
+libgmp-dev       
+libmpfr-dev      
+libeigen3-dev    
+libomp-dev       
+libgdal-dev      
+wget             
+ca-certificates 
