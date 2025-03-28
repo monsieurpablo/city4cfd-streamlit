@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -O3 -DNDEBUG CMakeFiles/las2las.dir/las2las.cpp.o CMakeFiles/las2las.dir/geoprojectionconverter.cpp.o -o ../../../tools/LAStools/city4cfd_las2las  /root/github/City4CFD/thirdparty/LAStools/LASlib/lib/libLASlib.a 

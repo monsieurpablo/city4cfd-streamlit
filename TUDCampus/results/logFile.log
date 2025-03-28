@@ -1,0 +1,14 @@
+// ========================================CITY4CFD SUMMARY ======================================= //
+All coordinates are translated by -(85376 446125)
+Building reconstruction summary: successfully reconstructed buildings: 57
+                                 num of failed reconstructions: 5
+Domain edge elevation: -0.410004
+
+// ========================================= CITY4CFD LOG ========================================= //
+Building ID: 10012030 Failed to reconstruct. Reason: Error: Found no points belonging to the building
+Building ID: 9467884 Failed to reconstruct. Reason: Error: Found no points belonging to the building
+Building ID: 9467885 Failed to reconstruct. Reason: Error: Found no points belonging to the building
+Building ID: 9467886 Failed to reconstruct. Reason: Error: Found no points belonging to the building
+Building ID: 10012501 Failed to reconstruct. Reason: Error: Found no points belonging to the building
+
+// ------------------------------------------------------------------------------------------------ //
