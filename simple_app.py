@@ -9,11 +9,8 @@ def run_city4cfd_command(config_file):
     st.info(f"Current working directory: {os.getcwd()}")
     st.info(f"Directory contents: {os.listdir('.')}")
     
-    # Change to TUDCampus directory
-    os.chdir("TUDCampus")
-    
     # Create results directory if it doesn't exist
-    os.makedirs("results", exist_ok=True)
+    os.makedirs("TUDCampus/results", exist_ok=True)
     
     # Run the city4cfd command
     try:
@@ -21,7 +18,8 @@ def run_city4cfd_command(config_file):
             ["../build/city4cfd", config_file, "--output_dir", "results"],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            universal_newlines=True
+            universal_newlines=True,
+            cwd="TUDCampus"
         )
         
         # Create an expander for the full output
