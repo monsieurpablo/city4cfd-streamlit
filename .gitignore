@@ -1,0 +1,86 @@
+# ─── CGAL & Build Artifacts ───────────────────────────────────────────────────
+/CGAL*/
+/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+*.make
+
+# Compiled binaries
+city4cfd
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+*.whl
+.venv/
+venv/
+env/
+.Python
+
+# ─── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/
+
+# ─── Data & Large Files ───────────────────────────────────────────────────────
+*.las
+*.laz
+*.ply
+*.obj
+*.stl
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.tif
+*.tiff
+*.csv
+*.log
+
+# ─── Config Outputs (generated) ───────────────────────────────────────────────
+# Uncomment if you don't want generated configs tracked:
+# config.json
+
+# ─── OS & Editor Noise ────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ─── Temporary Files ──────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
+*.swo
+CGAL-6.0.1-library.tar.xz
